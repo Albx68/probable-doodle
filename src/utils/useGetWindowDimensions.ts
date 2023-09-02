@@ -1,13 +1,8 @@
 "use client"
 import { useEffect, useState } from "react"
 
-
-// const reducer = (state, action) = () => {
-
-// }
-
 const useGetWindowDimensions = () => {
-    const [dimensions, setDimensions] = useState({ height: 0, width: 0 })
+    const [dimensions, setDimensions] = useState({ height: window?.innerHeight || 0, width: window?.innerWidth || 0 })
 
     useEffect(() => {
         const handleDimensionChange = () => {
@@ -22,5 +17,4 @@ const useGetWindowDimensions = () => {
 
     return dimensions
 }
-
 export default useGetWindowDimensions
