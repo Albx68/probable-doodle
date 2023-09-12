@@ -1,9 +1,9 @@
-import PlayGround from "@/components/PlayGround";
+import DefaultTransition from "@/components/DefaultTransition";
 
 export default function Home() {
   return (
     <main className="">
-      <PlayGround />
+      <DefaultTransition />
     </main>
   )
 }
