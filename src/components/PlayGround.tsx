@@ -10,6 +10,7 @@ const PlayGround = () => {
     const viewBoxHeight = height - 100
     const viewBox = `0 0 ${width} ${viewBoxHeight}`
     const radius = width / 10
+    //minor
     return (
         <div className='flex flex-col gap-4'>
             <svg viewBox={viewBox} height={viewBoxHeight} width={width} className='bg-slate-400'>
