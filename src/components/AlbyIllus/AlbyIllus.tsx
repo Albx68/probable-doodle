@@ -31,6 +31,13 @@ export default AlbyIllus
 const getFacePath = (canvasWidth: number, canvasHeight: number): string => {
     const cx = canvasWidth / 2
     const cy = canvasHeight / 2
-    return `M101 1C45.7715 1 1 45.7715 1 101C1 156.228 45.7715 201 101 201C156.228 201 201 156.228 201 101C201 45.7715 156.228 1 101 1Z`
+    // const p1 = 
+    return `M101 1
+    C45.7715 1 1 45.7715 1 101
+    C1 156.228 45.7715 201 101 201
+    C156.228 201 201 156.228 201 101
+    C201 45.7715 156.228 1 101 1
+    Z`
 }
+
 
